@@ -360,5 +360,7 @@ with aba3:
         # passando para o tipo fload
         df_filter['lat'] = pd.to_numeric(df_filter['lat'], errors='coerce', downcast='float')
         df_filter['lon'] = pd.to_numeric(df_filter['lon'], errors='coerce', downcast='float')
+        df_filter['lat'] = df_filter['lat'].astype('float64')
+        df_filter['lon'] = df_filter['lon'].astype('float64')   
         st.map(df_filter, size = 3, color= '#C5081D')
 
