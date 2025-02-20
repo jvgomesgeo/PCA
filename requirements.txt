@@ -3,5 +3,4 @@ folium
 pandas 
 plotly.express
 pydeck 
-streamlit_folium 
 st-gsheets-connection
