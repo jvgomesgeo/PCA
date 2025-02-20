@@ -1,6 +1,0 @@
-streamlit 
-folium
-pandas 
-plotly.express
-pydeck 
-st-gsheets-connection
