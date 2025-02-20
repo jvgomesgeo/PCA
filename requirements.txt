@@ -3,6 +3,5 @@ folium
 pandas 
 plotly.express
 pydeck 
-os
 streamlit_folium 
 streamlit_gsheets 
